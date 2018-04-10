@@ -22,6 +22,7 @@ var app={
       var objeto;
       
       function preload() {
+        game.load.audio('puntos', 'assets/pping.mp3');
         game.load.audio('death', 'assets/death.wav');
         game.load.image('background', 'assets/fondo.jpg');
         game.load.image('burbuja', 'assets/burbuja.png');
